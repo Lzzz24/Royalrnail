@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Mail Redelivery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body class="font-['Roboto'] bg-gray-100">
+    <div class="max-w-md mx-auto bg-white shadow-lg">
+        <header class="bg-gray-800 text-white p-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-times mr-4"></i>
+                <i class="fas fa-chevron-down mr-4"></i>
+                <i class="fas fa-layer-group"></i>
+            </div>
+            <div class="text-center flex-grow">
+                <div class="font-bold">Redelivery</div>
+                <div class="text-xs">royalmail.com</div>
+            </div>
+            <div class="flex items-center">
+                <i class="fas fa-share-alt mr-4"></i>
+                <i class="far fa-bookmark mr-4"></i>
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+        </header>
+
+        <nav class="bg-white p-4 flex justify-between items-center border-b">
+            <div class="flex items-center">
+                <img src="1.jpg" alt="Royal Mail Logo" class="h-8 mr-2">
+                <span class="font-bold">Personal</span>
+            </div>
+            <div class="flex items-center">
+                <i class="fas fa-search mr-4"></i>
+                <i class="far fa-user-circle mr-4"></i>
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <main class="p-4">
+            <div class="bg-yellow-100 rounded-lg p-4 mb-6 relative overflow-hidden">
+                <div class="bg-white p-4 rounded-lg mb-4 z-10 relative">
+                    <h1 class="text-2xl font-bold mb-2">Redelivery</h1>
+                    <p class="text-sm">Received a 'Something for you' card? Arrange to have your item redelivered.</p>
+                </div>
+                <div class="absolute top-0 right-0 bg-red-600 text-white p-4 transform rotate-45 translate-x-8 -translate-y-8">
+                    <span class="text-sm whitespace-nowrap">Something for you</span>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <p class="text-sm mb-4">Sometimes we can't deliver an item to you because nobody was there to sign for it, or if it was too big for your letterbox. We know you can't always get to your local delivery office to collect it, so we are happy to make a Redelivery:</p>
+                <ul class="list-disc pl-5 mb-4 text-sm">
+                    <li>free to your own address</li>
+                    <li>free to another address in your postcode area</li>
+                    <li>or free to your local Post Office® branch.</li>
+                </ul>
+                <a href="redelivery .html">
+                    <button class="bg-red-600 text-white py-2 px-4 rounded">Book a Redelivery</button>
+                </a>
+            </div>
+
+            <div class="bg-gray-100 p-4 rounded-lg mb-6">
+                <h2 class="font-bold mb-2">Need help?</h2>
+                <ul class="text-sm">
+                    <li class="mb-2"><a href="#" class="text-blue-600 underline">How to collect a missed delivery</a></li>
+                    <li class="mb-2"><a href="#" class="text-blue-600 underline">I need help with my Redelivery</a></li>
+                    <li class="mb-2"><a href="#" class="text-blue-600 underline">I've received a grey Fee to pay card</a></li>
+                    <li><a href="#" class="text-blue-600 underline">What happens if you can't deliver my mail?</a></li>
+                </ul>
+            </div>
+
+            <div class="flex mb-6">
+                <div class="bg-red-600 w-1/3 mr-4">
+                    <img src="2.jpg" alt="Illustration of a person walking a dog" class="w-full h-auto">
+                </div>
+                <div class="w-2/3">
+                    <h2 class="font-bold mb-2">Automatic Redelivery</h2>
+                    <p class="text-sm mb-2">You no longer need to pick up your parcels as we'll automatically redeliver your items the next working day.</p>
+                    <a href="#" class="text-red-600 text-sm">Changes to our service →</a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-red-600 text-white p-4 flex justify-between items-center">
+            <span class="font-bold">Further information</span>
+            <div class="flex items-center">
+                <i class="fas fa-comments mr-2"></i>
+                <span>Redelivery Assistant</span>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
